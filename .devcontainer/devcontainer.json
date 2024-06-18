@@ -29,6 +29,14 @@
 	"postCreateCommand": {
 		"trunk": "cargo install --locked trunk",
 		"wasm": "rustup target add wasm32-unknown-unknown"
+	},
+	
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bradlc.vscode-tailwindcss"
+			]
+		}
 	}
 
 	// Configure tool-specific properties.
